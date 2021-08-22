@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 id="page-title">Simon Game</h1>
+
+  <h1 id="level-title">Press a key to start!</h1>
+
+  <div class="container">
+
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+      </div>
+
+      <div type="button" id="red" class="btn red">
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+      </div>
+
+      <div type="button" id="blue" class="btn blue">
+      </div>
+
+    </div>
+
+  </div>
+
+  <p>
+    How to play:<br /><br/>
+    Press a key. The game will randomly activate a colour button. Copy by pressing the same button.<br/>
+    The game will then activate the next button. You have to copy both the first and the second button, and so on. </br>
+    The aim of the game is to memorize and copy the sequence of the selected buttons by the game.
+  </p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
